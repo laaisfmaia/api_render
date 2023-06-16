@@ -10,7 +10,7 @@ from flask import Flask, request
 from rossmann.Rossmann import Rossmann
 
 #carregando o modelo
-model = pickle.load( open('model\model_rossmann.pkl', 'rb'))
+model = pickle.load( open('model/model_rossmann.pkl', 'rb'))
 
 #inicializando a API
 app = Flask(__name__)
